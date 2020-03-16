@@ -1,0 +1,175 @@
+
+body{
+    color: white;
+    background:rgb(0, 19, 31);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arrow{
+display: inline;
+}
+
+.nav{
+    position: fixed;
+    overflow:hidden;
+    width:100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.25rem;
+    background: rgb(123, 132, 133);
+    left:0;
+    top:0;
+    padding-left:15px;
+}
+.nav p{
+    display: block;
+    float: left;
+    padding:3px;
+    color: white;
+    border-right: 1px solid white;
+}
+.nav a{
+    display: block;
+    float: left;
+    padding:3px;
+    color: white;
+    border-right: 1px solid white;
+    margin-top:18px;
+}
+
+#upper{
+    border-bottom:3px solid black;
+    background: rgb(123, 132, 133);
+    text-align: center;
+    padding:4%;
+    padding-left: 0;
+    padding-right: 0;
+    margin:0;
+    left:0;
+    width:100%;
+}
+#vic{
+    width:20%;
+    height:auto;
+    border: 4px double;
+    margin-top: 7%;;
+}
+#name{
+    /* border:1px solid black; */
+    display:inline-block;
+    color:rgb(110, 255, 243);
+    font-size: 2.5em;
+    padding:15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: normal;
+    font-family: 'Poiret One', cursive;
+}
+#title, #contact{
+    color:rgb(204, 204, 204);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#contact p{
+    font-size: 1em;
+}
+
+h2{
+    text-align:center;
+}
+#about, #javascript, #web{
+    padding: 5%;
+    
+}
+#about:after, #javascript:after, #web:after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 50%;
+    width:85%;
+    padding-top: 20px;
+    border-bottom: 1px double white;
+}
+
+.grid-container {
+    display:inline-block;
+}
+.js-item{
+    display:inline-block;
+    width:25rem;
+    margin-top: 0;
+}
+.web-item{
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+}
+
+#brown,#what,#ai{
+    width:30rem;
+}
+#ch,#aq,#cu{
+    height:20rem;
+    display:block;
+    margin: auto;
+    padding-bottom: 20px;;
+}
+
+
+.exWeb,.exJS{
+    display:block;
+    border: 2px solid rgb(195, 255, 255);
+    margin-right:10rem;
+    margin-top: 1rem;
+    padding: 8px;
+    text-align: left;
+    
+    
+}
+.exWeb{
+    float: right;
+    width:25%;
+}
+.exJS{
+    margin:auto;
+    width:18rem;
+}
+@media only screen and (max-width:420px){
+    .nav{
+        font-size: 1.335rem !important;
+        margin-left:-7px;
+    }
+    .nav a{
+        border-radius: 10px;
+        border: 1px solid rgb(195, 255, 255);
+        margin-left:2px;
+        margin-right:2px;
+    }
+    #name{
+        font-size: 1.75em;
+        display:block;
+        margin-left: 15%;
+    }
+    #vic{
+        margin-top:50px;
+    }
+    #ch,#aq,#cu{
+        height:250px;
+    }
+    .exJS{
+        margin:15px;
+    }
+    #ch{
+        margin:25px;
+
+    }
+    #aq,#cu{
+        margin:45px
+
+    }
+    #brown,#what,#ai{
+        width:325px;
+    }
+    .exWeb{
+        float:left;
+        width:70%;
+    }
+}
